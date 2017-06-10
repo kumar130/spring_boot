@@ -6,7 +6,7 @@ package org.myorg.demo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @author Siva
+ * @author Lavnish
  *
  */
 public interface BaseEntityRepository extends JpaRepository<BaseEntity, Integer>

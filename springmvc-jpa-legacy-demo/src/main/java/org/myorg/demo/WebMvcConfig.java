@@ -18,7 +18,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 import org.thymeleaf.templateresolver.TemplateResolver;
 
 /**
- * @author Siva
+ * @author Lavnish
  * 
  */
 @Configuration

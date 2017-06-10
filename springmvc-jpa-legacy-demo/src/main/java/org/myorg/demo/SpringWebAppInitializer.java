@@ -11,7 +11,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import org.myorg.demo.AppConfig;
 
 /**
- * @author Siva
+ * @author Lavnish
  *
  */
 public class SpringWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer
