@@ -9,12 +9,18 @@
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>helloworld-springboot</name>
+	
+<!-- 	<parent>
+		<groupId>org.myorg</groupId>
+		<artifactId>helloworld-springboot-1</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent> -->
 
-	<parent>
+ 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.1.RELEASE</version>
-	</parent>
+	</parent> 
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,7 +79,7 @@
         <version>2.21.0</version>
         <configuration>
           <includes>
-            <include>test.*</include>
+            <include>test.Sample.java</include>
           </includes>
         </configuration>
       </plugin>
